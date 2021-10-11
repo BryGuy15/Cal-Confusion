@@ -175,7 +175,7 @@ padding-top: 15px;
 }
 
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 767px){
  
     *{
         padding: 0px;
@@ -240,6 +240,15 @@ padding-top: 15px;
         margin-top: -25.8rem;
         margin-left: 1rem;
     }
+    
+    .sequences-display-Show{
+        width: 250px;
+        height: 225px;
+        top: 24.5%;
+        left: 9px;
+        font-size: 18px;
+        padding-top: 15px;
+        }
     
 
     
