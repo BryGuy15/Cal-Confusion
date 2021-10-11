@@ -215,12 +215,12 @@ padding-top: 15px;
 
     #number-display{
         width: 320px;
-        font-size: 23px;
+        font-size: 25px;
     }
 
     #light-bulb{
         top: 4px;
-        right: 3vh;
+        right: 2vh;
     }
 
     #clear{
