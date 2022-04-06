@@ -275,8 +275,14 @@ padding-top: 15px;
         padding-top: 15px;
         }
     
+}
 
-    
+
+@media screen and (max-width: 450px){
+
+    #instructions{
+        padding: 20px;
+    }
 
 }
 
