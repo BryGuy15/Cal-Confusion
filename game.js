@@ -1,4 +1,14 @@
 
+
+const closeInstructions = document.querySelector("#close-instructions-button");
+
+      closeInstructions.addEventListener('click', ()=>{
+        const instructionsContainer = document.querySelector("#instructions");
+              instructionsContainer.remove();
+      });
+
+
+
 const one = document.querySelector(".one");
 const two = document.querySelector(".two");
 const three = document.querySelector(".three");
