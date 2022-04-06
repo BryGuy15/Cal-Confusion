@@ -21,6 +21,14 @@ text-align: center;
 cursor: default
 }
 
+#instructions{
+ width: 400px;
+ height: 400px;
+ position: absolute;
+ top: 20%;
+ left: 100px;
+}
+
 #game-body{
     position: relative;
     width: 500px;
