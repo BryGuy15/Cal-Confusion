@@ -1273,7 +1273,7 @@ let lightBulbNumber = document.querySelector('#light-bulb span');
                   lightBulbCount = 1;
 		          subtractButtonCount = lightBulbCount;
 			
-		            let hintONE = "Buttons are not as expected.";
+		            let hintONE = "What happens when you click a number more than once?";
                     
                     const clueONE = document.querySelector("#clues");
                     clueONE.innerHTML = hintONE;
@@ -1307,7 +1307,7 @@ let lightBulbNumber = document.querySelector('#light-bulb span');
                             lightBulbCount = 2;
                             subtractButtonCount = lightBulbCount;
 
-                            let hintTWO = "Count in ascending order.";
+                            let hintTWO = "Is something missing when I click a numeber?.";
                         
                             const clueONE = document.querySelector("#clues");
                             clueONE.innerHTML = hintTWO;
