@@ -281,7 +281,8 @@ padding-top: 15px;
 @media screen and (max-width: 450px){
 
     #instructions{
-        padding: 20px;
+        padding-top: 20px;
+        margin-bottom: 10px;
     }
 
 }
