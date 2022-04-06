@@ -23,12 +23,21 @@ cursor: default
 
 #instructions{
  width: 80%;
- height: 100px;
+ height: 125px;
  display: flex;
  justify-content: center;
  align-items: center;
  margin: auto;
- padding-bottom: 50px;
+ background-color: #000000;
+ color: #fff;
+ padding: 5px 20px;
+ position:absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin:auto;
+ z-index: 3;
 }
 
 
@@ -281,8 +290,7 @@ padding-top: 15px;
 @media screen and (max-width: 450px){
 
     #instructions{
-        padding-top: 20px;
-        margin-bottom: 10px;
+        height: 250px;
     }
 
 }
