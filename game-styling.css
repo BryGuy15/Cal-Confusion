@@ -46,6 +46,16 @@ cursor: default
     font-weight: 500;
 }
 
+
+#instructions button{
+    background-color: red;
+    font-weight: bold;
+    border: none;
+    position: inherit;
+    top: 5px;
+    right: 5px;
+}
+
 #game-body{
     position: relative;
     width: 500px;
