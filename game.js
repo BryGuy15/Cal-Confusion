@@ -1507,7 +1507,9 @@ hints();
 	const sequences = document.querySelector("#sequences-display");
 	multiplyButtonCount++;
 
-     if(hintsArray[2] && multiplyButtonCount === 1){
+     if(multiplyButtonCount === 1){
+	     
+	     //hintsArray[2] &&
  
 	sequences.classList.add("sequences-display-Show");
 	sequences.innerHTML = 
